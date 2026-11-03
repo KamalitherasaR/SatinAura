@@ -1,7 +1,5 @@
 const products = {
 
-    // MEN'S COLLECTION
-
     blazer: {
         name: "Orange Blazer with Shirt",
         price: "₹3,999",
@@ -29,8 +27,6 @@ const products = {
         image: "images/jeans.jpg",
         description: "Classic blue denim jeans for a versatile look."
     },
-
-    // WOMEN'S COLLECTION
 
     dress: {
         name: "Elegant Evening Dress",
@@ -60,8 +56,6 @@ const products = {
         description: "A classic pleated skirt for a graceful look."
     },
 
-    // SHOES COLLECTION
-
     formal: {
         name: "Classic Formal Shoes",
         price: "₹3,499",
@@ -82,8 +76,6 @@ const products = {
         image: "images/heels.jpg",
         description: "Elegant heels for special occasions."
     },
-
-    // ACCESSORIES COLLECTION
 
     watch: {
         name: "Classic Elegant Watch",
@@ -108,9 +100,6 @@ const products = {
 
 };
 
-
-// GET PRODUCT DETAILS FROM URL
-
 const params = new URLSearchParams(window.location.search);
 
 const productId = params.get("product");
@@ -118,8 +107,6 @@ const previousPage = params.get("from");
 
 const product = products[productId];
 
-
-// SELECT HTML ELEMENTS
 
 const productName = document.querySelector("#product-name");
 const productPrice = document.querySelector("#product-price");
@@ -134,8 +121,6 @@ const continueButton = document.querySelector("#continue-shopping");
 
 const cart = document.querySelector(".cart");
 
-
-// DISPLAY PRODUCT DETAILS
 
 if (product) {
 
@@ -155,13 +140,8 @@ if (product) {
 
 }
 
-
-// GET CART DATA
-
 let cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
 
-
-// UPDATE CART COUNT
 
 function updateCartCount() {
 
@@ -180,8 +160,6 @@ function updateCartCount() {
 }
 
 
-// ADD TO CART
-
 if (addButton) {
 
     addButton.addEventListener("click", function() {
@@ -192,7 +170,6 @@ if (addButton) {
 
         const selectedQuantity = Number(productQuantity.value);
 
-        // VALIDATE QUANTITY
 
         if (
             !Number.isInteger(selectedQuantity) ||
@@ -206,7 +183,6 @@ if (addButton) {
         }
 
 
-        // CHECK EXISTING PRODUCT
 
         const existingProduct = cartItems.find(function(item) {
 
@@ -241,8 +217,6 @@ if (addButton) {
         }
 
 
-        // SAVE CART
-
         localStorage.setItem("cartItems", JSON.stringify(cartItems));
 
         updateCartCount();
@@ -253,8 +227,6 @@ if (addButton) {
 
 }
 
-
-// CONTINUE SHOPPING
 
 if (continueButton) {
 
@@ -280,8 +252,5 @@ if (continueButton) {
     });
 
 }
-
-
-// INITIAL CART COUNT
 
 updateCartCount();
