@@ -7,17 +7,7 @@ const priceSort = document.querySelector("#price-sort");
 const productCards = document.querySelectorAll(".product-card");
 const productContainer = document.querySelector(".product-container");
 
-
-// =====================================
-// 2. GET CART DATA
-// =====================================
-
 let cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
-
-
-// =====================================
-// 3. UPDATE CART COUNT
-// =====================================
 
 function updateCartCount() {
 
@@ -33,11 +23,6 @@ function updateCartCount() {
         cartCount.textContent = totalItems;
     }
 }
-
-
-// =====================================
-// 4. ADD PRODUCTS TO CART
-// =====================================
 
 cartButtons.forEach(function(button) {
 
@@ -80,11 +65,6 @@ cartButtons.forEach(function(button) {
 
 });
 
-
-// =====================================
-// 5. REFRESH CART COUNT
-// =====================================
-
 window.addEventListener("pageshow", updateCartCount);
 
 window.addEventListener("focus", updateCartCount);
@@ -97,10 +77,6 @@ document.addEventListener("visibilitychange", function() {
 
 });
 
-
-// =====================================
-// 6. FILTER PRODUCTS
-// =====================================
 
 function filterProducts() {
 
@@ -131,10 +107,6 @@ function filterProducts() {
 }
 
 
-// =====================================
-// 7. SEARCH PRODUCTS
-// =====================================
-
 if (searchInput) {
 
     searchInput.addEventListener("input", function() {
@@ -143,11 +115,6 @@ if (searchInput) {
 
 }
 
-
-// =====================================
-// 8. CATEGORY FILTER
-// =====================================
-
 if (categoryFilter) {
 
     categoryFilter.addEventListener("change", function() {
@@ -155,11 +122,6 @@ if (categoryFilter) {
     });
 
 }
-
-
-// =====================================
-// 9. SORT PRODUCTS BY PRICE
-// =====================================
 
 function sortProducts() {
 
@@ -222,11 +184,6 @@ if (priceSort) {
 
 }
 
-
-// =====================================
-// 10. MAKE PRODUCT CARDS CLICKABLE
-// =====================================
-
 if (productContainer) {
 
     productContainer.addEventListener("click", function(event) {
@@ -244,10 +201,4 @@ if (productContainer) {
     });
 
 }
-
-
-// =====================================
-// 11. INITIAL CART COUNT
-// =====================================
-
 updateCartCount();
