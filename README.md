@@ -1,0 +1,139 @@
+# 🛍️ StyleAura – Fashion E-Commerce Website
+
+**StyleAura** is a responsive fashion e-commerce website designed for men and women. It provides a stylish shopping experience where users can explore fashion collections, view product details, add products to their cart and complete a demo checkout.
+
+🌐 **Live Website:** [Visit StyleAura](https://kamalitherasar.github.io/StyleAura/)
+
+---
+
+## 📸 Screenshots
+
+### Homepage
+![StyleAura Homepage](screenshots/homepage.png)
+
+### Home-features
+![StyleAura Homepage](screenshots/home-features.png)
+
+### Men's Collection
+![Men's Collection](screenshots/men.png)
+
+### Women's Collection
+![Women's Collection](screenshots/women.png)
+
+### Shoe's Collection
+![Shoe's Collection](screenshots/shoes.png)
+
+### Accessories Collection
+![Accessories Collection](screenshots/accessories.png)
+
+### Product Details
+![Product Details](screenshots/product-details.png)
+
+### Shopping Cart
+![Shopping Cart](screenshots/cart.png)
+
+### Checkout Page
+![Checkout Page](screenshots/checkout.png)
+
+---
+
+## ✨ Features
+
+- **Responsive Design:** Works on desktop, tablet and mobile devices.
+- **Product Collections:** Separate collections for men, women, shoes and accessories.
+- **Product Details:** View product images, descriptions and prices.
+- **Product Search:** Search for products by name.
+- **Category Filtering:** Filter products by category.
+- **Price Sorting:** Sort products by price from low to high or high to low.
+- **Shopping Cart:** Add products and manage cart items.
+- **Quantity Management:** Increase or decrease product quantities.
+- **Remove and Undo:** Remove products and restore recently removed items.
+- **Checkout:** Enter customer and delivery details for a demo order.
+- **Local Storage:** Preserve cart information in the browser.
+- **Elegant UI:** Clean design with a cream and brown colour theme.
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| HTML5 | Website structure |
+| CSS3 | Styling and responsive design |
+| JavaScript | Interactive functionality |
+| Local Storage | Cart data management |
+| Git & GitHub | Version control and hosting |
+| GitHub Pages | Website deployment |
+
+## 📂 Project Structure
+
+```text
+StyleAura/
+│
+├── index.html
+├── men.html
+├── women.html
+├── shoes.html
+├── accessories.html
+├── product-details.html
+├── cart.html
+├── checkout.html
+│
+├── style.css
+├── script.js
+├── cart.js
+├── checkout.js
+├── product-details.js
+│
+├── images/
+│   ├── hero.jpg
+│   ├── Logo.png
+│   ├── blazer.jpg
+│   ├── dress.jpg
+│   ├── sneakers.jpg
+│   └── ...
+│
+└── screenshots/
+    ├── homepage.png
+    ├── home-features.png
+    ├── men.png
+    ├── women.png
+    ├── shoes.png
+    ├── accessories.png
+    ├── product-details.png
+    ├── cart.png
+    └── checkout.png
+```
+
+## 🚀 How to Run Locally
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/KamalitherasaR/StyleAura.git
+   ```
+
+2. Open the project folder in VS Code.
+
+3. Open `index.html` in your browser.
+
+4. Explore the website and test its features.
+
+## 🌐 Deployment
+
+This project is hosted using **GitHub Pages**.
+
+🔗 [https://kamalitherasar.github.io/StyleAura/](https://kamalitherasar.github.io/StyleAura/)
+
+## 🛒 Note
+
+This is a frontend demonstration project. The checkout form displays a demo order confirmation. It does not process real payments or submit orders to a backend server.
+
+## 👩‍💻 Author
+
+**Kamali Therasa R**
+
+- GitHub: [@KamalitherasaR](https://github.com/KamalitherasaR)
+- Project: [StyleAura](https://kamalitherasar.github.io/StyleAura/)
+
+---
+
+⭐ If you like this project, consider giving the repository a star!
