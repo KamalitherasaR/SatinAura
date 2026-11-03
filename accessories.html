@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StyleAura</title>
+    <link rel="icon" type="image/png" href="./images/LogoStyleAura.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">StyleAura</h2>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="men.html">Men</a></li>
+                <li><a href="women.html">Women</a></li>
+                <li><a href="shoes.html">Shoes</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+            </ul>
+            <div class="search-wrapper">
+                <a href="#products" class="search-icon">
+                    <img src="images/search.png" alt="Search">
+                </a>
+            </div>
+            <a href="cart.html" class="cart">🛒 <span>0</span></a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Complete Your Style</h1>
+            <p>Discover accessories that make every outfit special.</p>
+            <a href="#products" class="hero-btn">Explore Collection</a>
+        </div>
+    </section>
+
+    <!-- Accessories Section -->
+    <section class="products featured-products" id="products">
+
+        <h2>Accessories Collection</h2>
+        <p>Find the perfect finishing touch for your look.</p>
+
+        <!-- Search and Filter -->
+        <div class="product-controls">
+
+            <input
+                type="text"
+                id="search-input"
+                placeholder="Search accessories..."
+            >
+
+            <select id="category-filter">
+                <option value="all">All Categories</option>
+                <option value="handbag">Handbags</option>
+                <option value="watch">Watches</option>
+                <option value="sunglasses">Sunglasses</option>
+                <option value="wallet">Wallets</option>
+            </select>
+
+            <select id="price-sort">
+                <option value="default">Sort by Price</option>
+                <option value="low-high">Low to High</option>
+                <option value="high-low">High to Low</option>
+            </select>
+
+        </div>
+
+        
+        <!-- Product Cards -->
+        <div class="product-container">
+
+            <div class="product-card"
+                data-category="handbag"
+                data-link="product-details.html?product=handbag">
+
+                <img src="images/handbag.jpg" alt="Leather handbag">
+                <h3>Luxury Leather Handbag</h3>
+                <p>₹3,499</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+
+            <div class="product-card"
+                data-category="watch"
+                data-link="product-details.html?product=watch">
+
+                <img src="images/watch.jpg" alt="Elegant watch">
+                <h3>Classic Elegant Watch</h3>
+                <p>₹2,499</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+
+            <div class="product-card"
+                data-category="sunglasses"
+                data-link="product-details.html?product=sunglasses">
+
+                <img src="images/sunglasses.jpg" alt="Premium sunglasses">
+                <h3>Premium Sunglasses</h3>
+                <p>₹1,499</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+
+            <div class="product-card"
+                data-category="wallet"
+                data-link="product-details.html?product=wallet">
+
+                <img src="images/wallet.jpg" alt="Leather wallet">
+                <h3>Classic Leather Wallet</h3>
+                <p>₹999</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <h2>StyleAura</h2>
+
+        <p>Fashion that defines your style.</p>
+
+        <p class="copyright">
+            © 2026 StyleAura. All rights reserved.
+        </p>
+
+    </footer>
+
+</body>
+</html>

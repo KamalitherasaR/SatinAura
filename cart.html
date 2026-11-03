@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StyleAura</title>
+    <link rel="icon" type="image/png" href="./images/LogoStyleAura.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+
+            <h1 class="logo">StyleAura</h1>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="men.html">Men</a></li>
+                <li><a href="women.html">Women</a></li>
+                <li><a href="shoes.html">Shoes</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+            </ul>
+
+            <div class="search-wrapper">
+                <a href="index.html#products" class="search-icon">
+                    <img src="images/search.png" alt="Search">
+                </a>
+            </div>
+
+            <a href="cart.html" class="cart">
+                🛒 <span>0</span>
+            </a>
+
+        </nav>
+    </header>
+
+    <main class="cart-section">
+
+        <div class="cart-heading">
+            <p class="subtitle">YOUR SELECTION</p>
+            <h2>Shopping Cart</h2>
+            <p>Review your selected fashion items.</p>
+        </div>
+
+        <div class="cart-layout">
+
+            <div class="cart-products">
+                <div id="cart-items">
+                    <!-- Products appear here -->
+                </div>
+            </div>
+
+            <aside class="cart-summary">
+
+                <h3>Order Summary</h3>
+
+                <div class="summary-total">
+                    <span>Total</span>
+                    <strong id="cart-total">Total: ₹0</strong>
+                </div>
+
+                <a href="checkout.html" class="checkout-btn">
+                    Proceed to Checkout
+                </a>
+
+                <button class="continue-btn" onclick="window.location.href='index.html'">Continue Shopping</button>
+
+            </aside>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <h2>StyleAura</h2>
+        <p>Fashion that defines your style.</p>
+        <p>© 2026 StyleAura. All rights reserved.</p>
+    </footer>
+
+    <script src="cart.js"></script>
+
+</body>
+</html>

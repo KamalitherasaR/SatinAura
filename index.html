@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StyleAura</title>
+    <link rel="icon" type="image/png" href="./images/LogoStyleAura.png">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+
+            <h1 class="logo">StyleAura</h1>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="men.html">Men</a></li>
+                <li><a href="women.html">Women</a></li>
+                <li><a href="shoes.html">Shoes</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+            </ul>
+
+            <!-- SEARCH POPUP -->
+            <div class="search-wrapper">
+                <a href="#products" class="search-icon">
+                    <img src="images/search.png" alt="Search">
+                </a>
+            </div>
+            <!-- CART -->
+            <a href="cart.html" class="cart">
+                🛒 <span>0</span>
+            </a>
+
+        </nav>
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <p class="hero-subtitle">NEW COLLECTION 2026</p>
+
+            <h2>Discover Your<br>Own Style</h2>
+
+            <p>
+                Explore the latest fashion trends and find
+                your perfect style with StyleAura.
+            </p>
+
+            <a href="#products" class="hero-btn">
+                Shop Now
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- CATEGORY SECTION -->
+    <section class="categories">
+
+        <h2>Explore Collections</h2>
+
+        <div class="category-container">
+
+            <div class="category-card">
+
+                <img src="images/men.jpg" alt="Men's Collection">
+
+                <h3>Explore Men</h3>
+
+                <a href="men.html">Shop Now</a>
+
+            </div>
+
+
+            <div class="category-card">
+
+                <img src="images/women.jpg" alt="Women's Collection">
+
+                <h3>Explore Women</h3>
+
+                <a href="women.html">Shop Now</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FEATURED PRODUCTS -->
+    <section class="featured-products" id="products">
+
+        <h2>Featured Products</h2>
+
+        <!-- PRODUCT FILTERS -->
+        <div class="product-controls">
+
+            <input type="text"id="search-input" placeholder="Search products...">
+
+            <select id="category-filter">
+                <option value="all">All Categories</option>
+                <option value="men">Men</option>
+                <option value="women">Women</option>
+            </select>
+
+            <select id="price-sort">
+                <option value="default">Sort By Price</option>
+                <option value="low-high">Price: Low to High</option>
+                <option value="high-low">Price: High to Low</option>
+            </select>
+
+        </div>
+
+
+        <!-- PRODUCT CARDS -->
+        <div class="product-container">
+
+            <div class="product-card"
+                data-category="men"
+                data-link="product-details.html?product=blazer&from=index.html">
+
+                <img src="images/blazer.jpg" alt="Beige Blazer">
+
+                <h3>Orange Blazer with Shirt</h3>
+
+                <p>₹3,999</p>
+
+                <button class="add-to-cart">Add to Cart</button>
+
+            </div>
+
+
+            <div class="product-card"
+                data-category="women"
+                data-link="product-details.html?product=dress&from=index.html">
+
+                <img src="images/frock.jpg" alt="Evening Dress">
+
+                <h3>Elegant Evening Dress</h3>
+
+                <p>₹4,499</p>
+
+                <button class="add-to-cart">Add to Cart</button>
+
+            </div>
+
+
+            <div class="product-card"
+                data-category="men"
+                data-link="product-details.html?product=sneakers&from=index.html">
+
+                <img src="images/sneakers.jpg" alt="White sneakers">
+
+                <h3>Premium White Sneakers</h3>
+
+                <p>₹2,999</p>
+
+                <button class="add-to-cart">Add to Cart</button>
+
+            </div>
+
+
+            <div class="product-card"
+                data-category="women"
+                data-link="product-details.html?product=handbag&from=index.html">
+
+                <img src="images/handbag.jpg" alt="Leather Handbag">
+
+                <h3>Luxury Leather Handbag</h3>
+
+                <p>₹3,499</p>
+
+                <button class="add-to-cart">Add to Cart</button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <h2>StyleAura</h2>
+
+        <p>Discover your style. Define your fashion.</p>
+
+        <p>&copy; 2026 StyleAura. All rights reserved.</p>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>

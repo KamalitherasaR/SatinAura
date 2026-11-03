@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StyleAura</title>
+   <link rel="icon" type="image/png" href="./images/LogoStyleAura.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+
+            <h1 class="logo">StyleAura</h1>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="men.html">Men</a></li>
+                <li><a href="women.html">Women</a></li>
+                <li><a href="shoes.html">Shoes</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+            </ul>
+            <div class="search-wrapper">
+                <a href="#products" class="search-icon">
+                    <img src="images/search.png" alt="Search">
+                </a>
+            </div>
+            <a href="cart.html" class="cart">🛒 <span>0</span></a>
+        </nav>
+    </header>
+
+    <!-- Shoes Banner -->
+    <section class="hero">
+        <div class="hero-content">
+
+            <p class="subtitle">STYLEAURA FOOTWEAR</p>
+
+            <h2>Step Into Style</h2>
+
+            <p>
+                Discover comfortable footwear,
+                modern designs and timeless styles.
+            </p>
+            <a href="#products" class="hero-btn">Explore Collection</a>
+
+        </div>
+    </section>
+
+    <!-- Shoes Products -->
+    <section class="featured-products" id="products">
+
+        <h2>Shoes Collection</h2>
+
+        <p>Find the perfect pair for every occasion.</p>
+
+        <!-- Search and Sorting -->
+        <div class="product-controls">
+
+            <input
+                type="text"
+                id="search-input"
+                placeholder="Search shoes..."
+            >
+
+            <select id="category-filter">
+                <option value="all">All Shoes</option>
+                <option value="sneakers">Sneakers</option>
+                <option value="formal">Formal Shoes</option>
+                <option value="sandals">Sandals</option>
+                <option value="heels">Heels</option>
+            </select>
+
+            <select id="price-sort">
+                <option value="default">Sort by Price</option>
+                <option value="low-high">Low to High</option>
+                <option value="high-low">High to Low</option>
+            </select>
+
+        </div>
+
+        <!-- Product Cards -->
+       
+        <!-- Product Cards -->
+        <div class="product-container">
+
+            <div class="product-card"
+                data-category="sneakers"
+                data-link="product-details.html?product=sneakers">
+
+                <img src="images/sneakers.jpg" alt="White sneakers">
+                <h3>Premium White Sneakers</h3>
+                <p>₹2,999</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+
+            <div class="product-card"
+                data-category="formal"
+                data-link="product-details.html?product=formal">
+
+                <img src="images/formal-shoes.jpg" alt="Formal shoes">
+                <h3>Classic Formal Shoes</h3>
+                <p>₹3,499</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+
+            <div class="product-card"
+                data-category="sandals"
+                data-link="product-details.html?product=sandals">
+
+                <img src="images/sandals.jpg" alt="Casual sandals">
+                <h3>Comfort Casual Sandals</h3>
+                <p>₹1,299</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+
+            <div class="product-card"
+                data-category="heels"
+                data-link="product-details.html?product=heels">
+
+                <img src="images/heels.jpg" alt="Women's heels">
+                <h3>Elegant Party Heels</h3>
+                <p>₹2,499</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <h2>StyleAura</h2>
+
+        <p>Fashion that defines your style.</p>
+
+        <p class="copyright">
+            © 2026 StyleAura. All rights reserved.
+        </p>
+
+    </footer>
+
+</body>
+</html>
+

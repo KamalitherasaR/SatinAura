@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StyleAura</title>
+    <link rel="icon" type="image/png" href="./images/LogoStyleAura.png">
+    
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+
+            <h1 class="logo">StyleAura</h1>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="men.html">Men</a></li>
+                <li><a href="women.html">Women</a></li>
+                <li><a href="shoes.html">Shoes</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+            </ul>
+            <div class="search-wrapper">
+                <a href="#products" class="search-icon">
+                    <img src="images/search.png" alt="Search">
+                </a>
+            </div>
+            <a href="cart.html" class="cart">🛒 <span>0</span></a>
+
+        </nav>
+    </header>
+
+    <!-- Women's Collection Banner -->
+    <section class="hero">
+        <div class="hero-content">
+
+            <p class="subtitle">STYLEAURA WOMEN</p>
+
+            <h2>Women's Collection</h2>
+
+            <p>
+                Explore elegant outfits, modern trends
+                and timeless fashion for every occasion.
+            </p>
+            <a href="#products" class="hero-btn">Explore Collection</a>
+
+        </div>
+    </section>
+
+    <!-- Women's Products -->
+    <section class="featured-products" id="products">
+
+        <h2>Women's Fashion</h2>
+
+        <p>Discover our latest women's collection.</p>
+
+        <!-- Search and Sorting -->
+        <div class="product-controls">
+
+            <input
+                type="text"
+                id="search-input"
+                placeholder="Search women's products..."
+            >
+
+            <select id="category-filter">
+                <option value="all">All Products</option>
+                <option value="women">Women</option>
+            </select>
+
+            <select id="price-sort">
+                <option value="default">Sort by Price</option>
+                <option value="low-high">Low to High</option>
+                <option value="high-low">High to Low</option>
+            </select>
+
+        </div>
+
+        <!-- Product Cards -->
+        <div class="product-container">
+
+            <div class="product-card" data-category="women" data-link="product-details.html?product=dress">
+                <img src="images/frock.jpg" alt="Evening dress">
+
+                <h3>Elegant Evening Dress</h3>
+
+                <p>₹4,499</p>
+
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product-card" data-category="women" data-link="product-details.html?product=handbag">
+                <img src="images/dress.jpg" alt="Embellished Purple Anarkali Suit">
+
+                <h3>Embellished Purple Anarkali Suit</h3>
+
+                <p>₹7,499</p>
+
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product-card" data-category="women" data-link="product-details.html?product=top">
+                <img src="images/top.jpg" alt="Women's top">
+
+                <h3>Premium Casual Top</h3>
+
+                <p>₹1,299</p>
+
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product-card" data-category="women" data-link="product-details.html?product=skirt">
+                <img src="images/skirt.jpg" alt="Women's skirt">
+
+                <h3>Classic Pleated Skirt</h3>
+
+                <p>₹1,899</p>
+
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <h2>StyleAura</h2>
+
+        <p>Fashion that defines your style.</p>
+
+        <p class="copyright">
+            © 2026 StyleAura. All rights reserved.
+        </p>
+
+    </footer>
+
+</body>
+</html>
