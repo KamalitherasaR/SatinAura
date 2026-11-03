@@ -7,7 +7,6 @@ const cartContainer = document.querySelector("#cart-items");
 const totalElement = document.querySelector("#cart-total");
 
 
-// DISPLAY CART
 function displayCart() {
 
     cartContainer.innerHTML = "";
@@ -43,7 +42,6 @@ function displayCart() {
         cartContainer.innerHTML = "<p>Your cart is empty!</p>";
     }
 
-    // SHOW UNDO BUTTON
     if (removedItem !== null) {
 
         const undoButton = document.createElement("button");
@@ -58,15 +56,12 @@ function displayCart() {
     updateCartCount();
 }
 
-
-// UPDATE CART COUNT
 function updateCartCount() {
 
     const totalItems = cartItems.reduce(function(total, item) {
         return total + item.quantity;
     }, 0);
 
-    // Update any cart count displayed on this page
     const cartCount = document.querySelector(".cart span");
 
     if (cartCount) {
@@ -76,7 +71,6 @@ function updateCartCount() {
 }
 
 
-// CHANGE QUANTITY
 function changeQuantity(index, amount) {
 
     cartItems[index].quantity += amount;
@@ -102,7 +96,6 @@ function removeItem(index) {
 }
 
 
-// UNDO REMOVE
 function undoRemove() {
 
     if (removedItem !== null) {
@@ -118,7 +111,6 @@ function undoRemove() {
 }
 
 
-// SAVE CART
 function saveCart() {
 
     localStorage.setItem("cartItems", JSON.stringify(cartItems));
@@ -143,11 +135,9 @@ function checkCheckoutButton() {
 
 }
 
-// INITIAL DISPLAY
 displayCart();
 
 
-// CLEAR UNDO WHEN LEAVING CART PAGE
 window.addEventListener("pagehide", function() {
 
     removedItem = null;
