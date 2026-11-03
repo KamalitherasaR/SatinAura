@@ -15,11 +15,6 @@ body {
     padding-top: 65px;
 }
 
-
-/* =====================================
-   NAVBAR
-===================================== */
-
 header {
     position: fixed;
     top: 0;
@@ -98,11 +93,6 @@ header {
     flex-shrink: 0;
 }
 
-
-/* =====================================
-   HERO SECTION
-===================================== */
-
 .hero {
     min-height: 480px;
 
@@ -156,11 +146,6 @@ header {
 .hero-btn:hover {
     background: #352116;
 }
-
-
-/* =====================================
-   CATEGORY SECTION
-===================================== */
 
 .categories {
     padding: 45px 5%;
@@ -245,11 +230,6 @@ header {
     transition: 0.3s;
 }
 
-
-/* =====================================
-   FEATURED PRODUCTS
-===================================== */
-
 .featured-products {
     padding: 50px 6%;
     text-align: center;
@@ -260,11 +240,6 @@ header {
     font-size: 36px;
     margin-bottom: 25px;
 }
-
-
-/* =====================================
-   PRODUCT SEARCH AND FILTERS
-===================================== */
 
 .product-controls {
     display: flex;
@@ -297,11 +272,6 @@ header {
     color: #452b1e;
     cursor: pointer;
 }
-
-
-/* =====================================
-   PRODUCT GRID
-===================================== */
 
 .product-container {
     display: grid;
@@ -355,11 +325,6 @@ header {
     background: #a75f35;
 }
 
-
-/* =====================================
-   FOOTER
-===================================== */
-
 footer {
     background: #352116;
     color: white;
@@ -377,11 +342,6 @@ footer p {
     margin: 8px 0;
     font-size: 14px;
 }
-
-
-/* =====================================
-   TABLET RESPONSIVE
-===================================== */
 
 @media (max-width: 900px) {
 
@@ -407,11 +367,6 @@ footer p {
     }
 
 }
-
-
-/* =====================================
-   MOBILE RESPONSIVE
-===================================== */
 
 @media (max-width: 768px) {
 
@@ -472,11 +427,6 @@ footer p {
     }
 
 }
-
-
-/* =====================================
-   SMALL MOBILE
-===================================== */
 
 @media (max-width: 480px) {
 
@@ -540,19 +490,12 @@ footer p {
 
 }
 
-/* =====================================
-   SHOPPING CART PAGE
-===================================== */
-
 .cart-section {
     max-width: 1150px;
     width: 90%;
     margin: 50px auto;
     min-height: 60vh;
 }
-
-/* CART HEADING */
-
 .cart-heading {
     text-align: center;
     margin-bottom: 40px;
@@ -578,18 +521,12 @@ footer p {
     font-size: 15px;
 }
 
-
-/* CART LAYOUT */
-
 .cart-layout {
     display: grid;
     grid-template-columns: 1fr 320px;
     gap: 30px;
     align-items: start;
 }
-
-
-/* CART PRODUCTS */
 
 .cart-products {
     background: white;
@@ -603,9 +540,6 @@ footer p {
     flex-direction: column;
     gap: 18px;
 }
-
-
-/* INDIVIDUAL CART ITEM */
 
 .cart-item {
     background: #fbf3e8;
@@ -633,9 +567,6 @@ footer p {
     margin-bottom: 10px;
 }
 
-
-/* CART ITEM BUTTONS */
-
 .cart-item button {
     padding: 9px 17px;
     margin: 8px 7px 0 0;
@@ -650,9 +581,6 @@ footer p {
 .cart-item button:hover {
     background: #a75f35;
 }
-
-
-/* UNDO BUTTON */
 
 .undo-btn {
     align-self: flex-start;
@@ -669,9 +597,6 @@ footer p {
     background: #a75f35;
     color: white;
 }
-
-
-/* CART SUMMARY */
 
 .cart-summary {
     background: white;
@@ -710,9 +635,6 @@ footer p {
     color: #352116;
 }
 
-
-/* CHECKOUT BUTTON */
-
 .checkout-btn {
     display: block;
     width: 100%;
@@ -730,9 +652,6 @@ footer p {
     background: #a75f35;
 }
 
-
-/* CONTINUE SHOPPING BUTTON */
-
 .continue-btn {
     width: 100%;
     padding: 12px 15px;
@@ -749,20 +668,12 @@ footer p {
     border-color: #352116;
 }
 
-
-/* EMPTY CART MESSAGE */
-
 #cart-items > p {
     text-align: center;
     padding: 35px 10px;
     color: #806b5d;
     font-size: 17px;
 }
-
-
-/* =====================================
-   CART TABLET RESPONSIVE
-===================================== */
 
 @media (max-width: 850px) {
 
@@ -775,11 +686,6 @@ footer p {
     }
 
 }
-
-
-/* =====================================
-   CART MOBILE RESPONSIVE
-===================================== */
 
 @media (max-width: 480px) {
 
@@ -819,19 +725,12 @@ footer p {
 
 }
 
-
-/* =====================================
-   CHECKOUT PAGE
-===================================== */
-
 .checkout-section {
     max-width: 1100px;
     width: 90%;
     margin: 50px auto;
     min-height: 60vh;
 }
-
-/* CHECKOUT HEADING */
 
 .checkout-heading {
     text-align: center;
@@ -858,16 +757,12 @@ footer p {
     font-size: 15px;
 }
 
-/* CHECKOUT LAYOUT */
-
 .checkout-container {
     display: grid;
     grid-template-columns: 1fr 350px;
     gap: 30px;
     align-items: start;
 }
-
-/* CHECKOUT FORM */
 
 .checkout-form {
     background: white;
@@ -917,8 +812,6 @@ footer p {
     resize: vertical;
 }
 
-/* PLACE ORDER BUTTON */
-
 .checkout-form button {
     width: 100%;
     padding: 14px;
@@ -941,8 +834,6 @@ footer p {
     cursor: not-allowed;
 }
 
-/* ORDER SUMMARY */
-
 .order-summary {
     background: white;
     padding: 28px 22px;
@@ -958,8 +849,6 @@ footer p {
     color: #352116;
     margin-bottom: 22px;
 }
-
-/* SUMMARY ITEMS */
 
 #checkout-items {
     display: flex;
@@ -986,8 +875,6 @@ footer p {
     font-size: 16px;
 }
 
-/* CHECKOUT TOTAL */
-
 .checkout-total {
     display: flex;
     justify-content: space-between;
@@ -1007,15 +894,11 @@ footer p {
     font-size: 19px;
 }
 
-/* EMPTY CART MESSAGE */
-
 #checkout-items > p {
     text-align: center;
     color: #806b5d;
     padding: 20px 0;
 }
-
-/* ORDER SUCCESS MESSAGE */
 
 #order-message {
     text-align: center;
@@ -1024,8 +907,6 @@ footer p {
     font-weight: bold;
     margin-top: 25px;
 }
-
-/* CHECKOUT TABLET RESPONSIVE */
 
 @media (max-width: 850px) {
 
@@ -1038,8 +919,6 @@ footer p {
     }
 
 }
-
-/* CHECKOUT MOBILE RESPONSIVE */
 
 @media (max-width: 480px) {
 
@@ -1074,10 +953,6 @@ footer p {
 
 }
 
-/* =====================================
-   PRODUCT DETAILS PAGE
-===================================== */
-
 .product-details {
     max-width: 1150px;
     width: 90%;
@@ -1089,8 +964,6 @@ footer p {
     gap: 60px;
     align-items: center;
 }
-
-/* PRODUCT IMAGE */
 
 .details-image {
     width: 100%;
@@ -1112,8 +985,6 @@ footer p {
 .details-image img:hover {
     transform: scale(1.04);
 }
-
-/* PRODUCT INFORMATION */
 
 .details-content {
     padding: 20px 0;
@@ -1148,8 +1019,6 @@ footer p {
     margin-bottom: 30px;
 }
 
-/* SIZE AND QUANTITY */
-
 .details-content label {
     display: block;
     color: #452b1e;
@@ -1177,8 +1046,6 @@ footer p {
 .details-content input:focus {
     border-color: #a75f35;
 }
-
-/* PRODUCT BUTTONS */
 
 .details-buttons {
     display: flex;
@@ -1224,11 +1091,6 @@ footer p {
     cursor: not-allowed;
 }
 
-
-/* =====================================
-   PRODUCT DETAILS TABLET
-===================================== */
-
 @media (max-width: 850px) {
 
     .product-details {
@@ -1257,11 +1119,6 @@ footer p {
     }
 
 }
-
-
-/* =====================================
-   PRODUCT DETAILS MOBILE
-===================================== */
 
 @media (max-width: 600px) {
 
