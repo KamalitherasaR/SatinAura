@@ -101,7 +101,7 @@ This is a frontend demonstration project. The checkout form displays a demo orde
 
 ## 👩‍💻 Author
 
-**Kamali Therasa R**
+**Kamalitherasa R**
 
 - GitHub: [@KamalitherasaR](https://github.com/KamalitherasaR)
 - Project: [SatinAura](https://kamalitherasar.github.io/SatinAura/)
