@@ -1,18 +1,18 @@
-# 🛍️ StyleAura – Fashion E-Commerce Website
+# 🛍️ SatinAura – Fashion E-Commerce Website
 
-**StyleAura** is a responsive fashion e-commerce website designed for men and women. It provides a stylish shopping experience where users can explore fashion collections, view product details, add products to their cart and complete a demo checkout.
+**SatinAura** is a responsive fashion e-commerce website designed for men and women. It provides a stylish shopping experience where users can explore fashion collections, view product details, add products to their cart and complete a demo checkout.
 
-🌐 **Live Website:** [Visit StyleAura](https://kamalitherasar.github.io/StyleAura/)
+🌐 **Live Website:** [Visit SatinAura](https://kamalitherasar.github.io/SatinAura/)
 
 ---
 
 ## 📸 Screenshots
 
 ### Homepage
-![StyleAura Homepage](screenshots/homepage.png)
+![SatinAura Homepage](screenshots/homepage.png)
 
 ### Home-features
-![StyleAura Homepage](screenshots/home-features.png)
+![SatinAura Homepage](screenshots/home-features.png)
 
 ### Men's Collection
 ![Men's Collection](screenshots/men.png)
@@ -66,7 +66,7 @@
 ## 📂 Project Structure
 
 ```text
-StyleAura/
+SatinAura/
 │
 ├── index.html
 ├── men.html
@@ -108,7 +108,7 @@ StyleAura/
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/KamalitherasaR/StyleAura.git
+   git clone https://github.com/KamalitherasaR/SatinAura.git
    ```
 
 2. Open the project folder in VS Code.
@@ -121,7 +121,7 @@ StyleAura/
 
 This project is hosted using **GitHub Pages**.
 
-🔗 [https://kamalitherasar.github.io/StyleAura/](https://kamalitherasar.github.io/StyleAura/)
+🔗 [https://kamalitherasar.github.io/SatinAura/](https://kamalitherasar.github.io/SatinAura/)
 
 ## 🛒 Note
 
@@ -132,7 +132,7 @@ This is a frontend demonstration project. The checkout form displays a demo orde
 **Kamali Therasa R**
 
 - GitHub: [@KamalitherasaR](https://github.com/KamalitherasaR)
-- Project: [StyleAura](https://kamalitherasar.github.io/StyleAura/)
+- Project: [SatinAura](https://kamalitherasar.github.io/SatinAura/)
 
 ---
 
