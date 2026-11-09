@@ -6,34 +6,6 @@
 
 ---
 
-## 📸 Screenshots
-
-### Homepage
-![SatinAura Homepage](screenshots/homepage.png)
-
-### Home-features
-![SatinAura Homepage](screenshots/home-features.png)
-
-### Men's Collection
-![Men's Collection](screenshots/men.png)
-
-### Women's Collection
-![Women's Collection](screenshots/women.png)
-
-### Shoe's Collection
-![Shoe's Collection](screenshots/shoes.png)
-
-### Accessories Collection
-![Accessories Collection](screenshots/accessories.png)
-
-### Product Details
-![Product Details](screenshots/product-details.png)
-
-### Shopping Cart
-![Shopping Cart](screenshots/cart.png)
-
-### Checkout Page
-![Checkout Page](screenshots/checkout.png)
 
 ---
 
